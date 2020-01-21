@@ -2,15 +2,40 @@
 
 effective flutter media player
 
+俺的毕业设计，一个普通的 （flutter? 待考虑 ）音乐播放器
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## TODO 清单列表
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/changsanjiang/SJVideoPlayer 功能列表参考一下这个库先.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 播放控制
+* 1 播放
+* 2 暂停
+* 3 刷新
+* 4 重播
+* 5 停止
+* 6 静音
+* 7 调速
+* 8 报错
+* 9 跳转 （精准SEEK）
+* 10 切换清晰度  （多码率网络自适应）
+* 11 当前时间
+* 12 总时长
+* 13 缓冲时长
+* 14 是否已播放完毕
+* 15 是否调用过播放
+* 16 是否调用过重播
+* 17 设置新资源时, 是否自动播放
+* 18 进入后台, 是否暂停播放
+* 19 进入前台, 是否恢复播放
+* 20 跳转完成, 是否恢复播放
+* 21 资源准备状态
+* 22 播放控制状态
+* 23 播放等待的原因
+* 24 监听状态改变
+* 25 已观看的时长(当前资源)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+页面切换
+
